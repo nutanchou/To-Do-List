@@ -1,0 +1,21 @@
+mongodb name:- taskdb
+
+a) collection name:- users
+
+{
+  "_id": ObjectId("67c715b3a1cabc2573288138"),
+  "email": "exampleuser@example.com",
+  "password": "hashedpassword123",
+  "name": "John Doe"
+}
+
+
+b) collection name:- tasks
+
+{
+  "_id": ObjectId("67c7089fa1cabc2573288134"),
+  "name": "gh jk 22",
+  "description": "gh description jk 22",
+  "status": "DONE",
+  "updatedAt": ISODate("2025-03-05T07:33:34.073+00:00")
+}
