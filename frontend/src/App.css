@@ -1,0 +1,32 @@
+/* App.css */
+.logout-btn {
+  position: fixed; /* Fix the button at the top-right corner */
+  top: 10px; /* Position it 10px from the top */
+  right: 10px; /* Position it 10px from the right */
+  background-color: red; /* Red background */
+  color: white; /* White text */
+  border: none; /* Remove border */
+  padding: 10px 20px; /* Add padding to the button */
+  font-size: 16px; /* Set font size */
+  cursor: pointer; /* Change cursor to pointer */
+  border-radius: 5px; /* Rounded corners */
+  z-index: 1000; /* Ensure the button is on top of other elements */
+}
+
+.logout-btn:hover {
+  background-color: darkred; /* Darker red on hover */
+}
+
+button.logout-btn {
+  padding: 8px 10px !important;
+  background-color: red !important;
+  color: white !important;
+  border: none !important;
+  border-radius: 4px !important;
+  cursor: pointer !important;
+  float: right !important;
+  text-align: right !important;
+  position: absolute !important;
+  right: 0px !important;
+  margin: 10px !important;
+}
